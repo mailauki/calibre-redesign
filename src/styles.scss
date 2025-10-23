@@ -4,6 +4,12 @@
 @use '@angular/material' as mat;
 @use './app/styles/_theme-colors' as my-theme;
 
+@use './app/layout/layout-component.theme';
+
+// :root {
+//   @include layout-component.theme($theme);
+// }
+
 html {
   @include mat.theme((
     color: (
